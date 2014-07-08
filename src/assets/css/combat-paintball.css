@@ -71,3 +71,19 @@
 .white-space {
     margin-top: 100px;
 }
+
+.title {
+    color: rgb(90, 90, 90);
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#map_canvas {
+    width: 450px;
+    height: 450px;
+}
