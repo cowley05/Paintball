@@ -39,12 +39,12 @@
 <body>
 <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
     <div class="container">
-        <div class="navbar-header page-scroll">
+        <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
             <div class="navbar-logo">
-                <a href="#" class="page-scroll"><img src="../assets/img/logo.png" width="120" height="38"/></a>
+                <a href="#"><img src="../assets/img/logo.png" width="120" height="38"/></a>
             </div>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -97,7 +97,7 @@
                 <div class="carousel-caption">
                     <h1>Group deals available</h1>
                     <p>From birthdays to stag/hen parties and even work events.</p>
-                    <p><a class="btn btn-lg btn-primary" href="prices.html" role="button">Learn more</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#prices" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@
                 <div class="carousel-caption">
                     <h1>Action packed day</h1>
                     <p>With 7 game zones and multiple scenarios.</p>
-                    <p><a class="btn btn-lg btn-primary" href="gallery.html" role="button">Browse gallery</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#gallery" role="button">Browse gallery</a></p>
                 </div>
             </div>
         </div>
@@ -181,15 +181,124 @@
     <hr id="prices" class="featurette-divider">
 
     <div  class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">One phone call... <span class="text-muted">Booked!</span></h2>
-            <p class="lead">Simply call <a href="tel:01695555137"><b>01695 555137</b></a> to book a game. Click below for a full list of offers, prices
-                and package deals.</p>
-            <a href="prices.html">Prices and deals...</a>
+        <div id="price-table">
+            <div class="whole">
+                <div class="type">
+                    <p>Pay as you play</p>
+                </div>
+                <div class="plan">
+
+                    <div class="header">
+                        <span>&pound;</span>4<sup>.99</sup>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>Full or half day</li>
+                            <li>Paintballs &pound;7.00 per 100</li>
+                            <li>All equipment</li>
+                            <li>Lunch*</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="whole">
+                <div class="type deal-one">
+                    <p>Standard</p>
+                </div>
+                <div class="plan">
+
+                    <div class="header">
+                        <span>&pound;</span>10<sup>.00</sup>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>Full or half day</li>
+                            <li>100 Paintballs included</li>
+                            <li>All equipment</li>
+                            <li>Lunch*</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="whole ">
+                <div class="type deal-two">
+                    <p>Birthday bash</p>
+                </div>
+                <div class="plan">
+                    <div class="header">
+                        <span>&pound;</span>20<sup>.00</sup>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>Full or half day</li>
+                            <li>300 Paintballs included</li>
+                            <li>All equipment</li>
+                            <li>Lunch*</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="whole ">
+                <div class="type deal-three">
+                    <p>Rambo</p>
+                </div>
+                <div class="plan">
+                    <div class="header">
+                        <span>&pound;</span>30<sup>.00</sup>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>Full or half day</li>
+                            <li>500 Paintballs included</li>
+                            <li>All equipment</li>
+                            <li>Lunch*</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="whole ">
+                <div class="type deal-four">
+                    <p>Master blaster</p>
+                </div>
+                <div class="plan">
+                    <div class="header">
+                        <span>&pound;</span>50<sup>.00</sup>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>Full or half day</li>
+                            <li>1000 Paintballs included</li>
+                            <li>All equipment</li>
+                            <li>Lunch*</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="whole ">
+                <div class="type deal-five">
+                    <p>Organisers</p>
+                </div>
+                <div class="plan">
+                    <div class="header">
+                        <span>Thank you!</span>
+                        <p class="month">just for organising you get...</p>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>10-14ppl = FREE entry* + 100 Paintballs</li>
+                            <li>15-19ppl = FREE entry* + 200 Paintballs</li>
+                            <li>20-24ppl = FREE entry* + 300 Paintballs</li>
+                            <li>25-30ppl = FREE entry* + 400 Paintballs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+        <p id="price-caption" class="lead">
+            *Lunch only included for full day bookings. Additional paintballs for all packages are &pound;7.00 per 100.<br/>
+            *Free entry and paintballs are for the group organiser only. All transactions are none refundable.
+        </p>
     </div>
 
     <hr class="featurette-divider">

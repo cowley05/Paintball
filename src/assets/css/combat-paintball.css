@@ -122,3 +122,134 @@ a:visited.stand_out{
 #links a img {
     margin-bottom: 3px;
 }
+
+#price-table a {
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: white;
+    text-decoration: none;
+}
+
+#price-table sup {
+    font-size: 40px;
+}
+
+#price-table ul {
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    color: #9095aa;
+    padding: 0px;
+    margin: 0px;
+}
+
+#price-table li {
+    border-bottom: 1px solid #494a5a;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 52px;
+    line-height: 52px;
+}
+
+#price-table {
+    width: 100%;
+    text-align: center;
+}
+
+#price-table .whole {
+    display: inline-block;
+}
+
+#price-table .type {
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #eac80d;
+    height: 62px;
+    border-bottom: 3px solid #bfa30c;
+
+}
+
+#price-table .type p {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 29px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#price-table .plan {
+    width: 300px;
+    background-color: #2b2937;
+
+    border-radius: 0px 0px 5px 5px;
+    font-family: 'Open Sans';
+    font-style: condensed;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
+#price-table .deal-one {
+    margin-top: 29px;
+    background-color: #1abc9c;
+    border-bottom: 3px solid #18937b;
+}
+
+#price-table .deal-two {
+    margin-top: 29px;
+    background-color: #5d6a9a;
+    border-bottom: 3px solid #474f6f;
+}
+
+#price-table .deal-three {
+    margin-top: 29px;
+    background-color: #6E9A5D;
+    border-bottom: 3px solid #557948;
+}
+
+#price-table .deal-four {
+    margin-top: 29px;
+    background-color: #EC4E4E;
+    border-bottom: 3px solid #C44040;
+}
+
+#price-table .deal-five {
+    margin-top: 29px;
+    background-color: #5CDEF6;
+    border-bottom: 3px solid #46A9BB;
+}
+
+#price-table .header {
+    border-bottom: 1px solid #494a5a;
+    padding-bottom: 39px;
+}
+
+#price-table .header span {
+    font-size: 32px;
+}
+
+#price-table .month {
+    font-size: 14px;
+    color: #575757;
+    padding: 0px;
+    margin: -10px;
+}
+
+#price-table .price {
+    height: 80px;
+}
+
+#price-table .cart {
+    color: white;
+    position: relative;
+    top: 16px;
+}
+
+#price-caption {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2px;
+}
