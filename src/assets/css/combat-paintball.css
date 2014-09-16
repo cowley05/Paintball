@@ -112,15 +112,31 @@
     background-size: cover;
 }
 
-a:hover.stand_out,
-a:link.stand_out,
-a:active.stand_out,
-a:visited.stand_out{
+.carousel-caption a:hover.stand_out,
+.carousel-caption a:link.stand_out,
+.carousel-caption a:active.stand_out,
+.carousel-caption a:visited.stand_out {
     color: #f8f803;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 #links a img {
     margin-bottom: 3px;
+}
+
+.prices-header {
+    text-align: center;
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.prices-header a,
+.prices-header a :hover {
+    color: #999;
+    text-decoration: none;
 }
 
 #price-table a {
