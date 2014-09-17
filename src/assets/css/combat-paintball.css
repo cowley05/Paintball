@@ -89,7 +89,7 @@
 }
 
 #cover1 {
-    background: url('../img/gallery/originals/IMG_20140712_124950_1.jpg') no-repeat center center fixed;
+    background: url('../img/gallery/carousel/carousel_1.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -97,7 +97,7 @@
 }
 
 #cover2 {
-    background: url('../img/gallery/originals/IMG_20140712_142141_1.jpg') no-repeat center center fixed;
+    background: url('../img/gallery/carousel/carousel_2.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -105,7 +105,7 @@
 }
 
 #cover3 {
-    background: url('../img/gallery/originals/IMG_20140712_132304_1.jpg') no-repeat center center fixed;
+    background: url('../img/gallery/carousel/carousel_3.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
