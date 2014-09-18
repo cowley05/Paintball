@@ -139,18 +139,18 @@ a:hover {
     text-decoration: none;
 }
 
-#price-table a {
+.price-table a {
     font-size: 18px;
     font-family: 'Open Sans';
     color: white;
     text-decoration: none;
 }
 
-#price-table sup {
+.price-table sup {
     font-size: 40px;
 }
 
-#price-table ul {
+.price-table ul {
     list-style: none;
     font-size: 15px;
     font-family: 'Open Sans';
@@ -159,7 +159,7 @@ a:hover {
     margin: 0px;
 }
 
-#price-table li {
+.price-table li {
     border-bottom: 1px solid #494a5a;
     padding: 0px;
     margin: 0px;
@@ -168,16 +168,20 @@ a:hover {
     line-height: 52px;
 }
 
-#price-table {
+#splat-master.price-table li {
+    height: auto;
+}
+
+.price-table {
     width: 100%;
     text-align: center;
 }
 
-#price-table .whole {
+.price-table .whole {
     display: inline-block;
 }
 
-#price-table .type {
+.price-table .type {
     width: 300px;
     border-radius: 5px 5px 0px 0px;
     background-color: #eac80d;
@@ -186,7 +190,7 @@ a:hover {
 
 }
 
-#price-table .type p {
+.price-table .type p {
     font-family: 'Open Sans';
     font-weight: 800;
     font-size: 29px;
@@ -196,7 +200,7 @@ a:hover {
     padding-top: 10px;
 }
 
-#price-table .plan {
+.price-table .plan {
     width: 300px;
     background-color: #2b2937;
 
@@ -208,64 +212,68 @@ a:hover {
     text-align: center;
 }
 
-#price-table .deal-one {
+.price-table .deal-one {
     margin-top: 29px;
     background-color: #1abc9c;
     border-bottom: 3px solid #18937b;
 }
 
-#price-table .deal-two {
+.price-table .deal-two {
     margin-top: 29px;
     background-color: #5d6a9a;
     border-bottom: 3px solid #474f6f;
 }
 
-#price-table .deal-three {
+.price-table .deal-three {
     margin-top: 29px;
     background-color: #6E9A5D;
     border-bottom: 3px solid #557948;
 }
 
-#price-table .deal-four {
+.price-table .deal-four {
     margin-top: 29px;
     background-color: #EC4E4E;
     border-bottom: 3px solid #C44040;
 }
 
-#price-table .deal-five {
+.price-table .deal-five {
     margin-top: 29px;
     background-color: #5CDEF6;
     border-bottom: 3px solid #46A9BB;
 }
 
-#price-table .header {
+.price-table .header {
     border-bottom: 1px solid #494a5a;
     padding-bottom: 39px;
 }
 
-#price-table .header span {
+.price-table .header span {
     font-size: 32px;
 }
 
-#price-table .month {
+.price-table .month {
     font-size: 14px;
     color: #575757;
     padding: 0px;
     margin: -10px;
 }
 
-#price-table .price {
+.price-table .price {
     height: 80px;
 }
 
-#price-table .cart {
+.price-table .cart {
     color: white;
     position: relative;
-    top: 16px;
+    top: 26px;
 }
 
-#price-caption {
-    font-size: 14px;
+.small-print {
+    font-size: 12px;
     text-align: center;
-    margin-top: 2px;
+    margin: 2px auto 0 auto;
+}
+
+#splat-master-terms.small-print {
+    max-width: 300px;
 }
