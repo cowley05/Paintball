@@ -150,6 +150,10 @@ a:hover {
     font-size: 40px;
 }
 
+.price-table li sup {
+    font-size: 12px;
+}
+
 .price-table ul {
     list-style: none;
     font-size: 15px;
