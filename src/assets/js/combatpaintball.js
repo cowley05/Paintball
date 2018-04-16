@@ -1,10 +1,18 @@
 //jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('.page-scroll a').bind('click', function(event) {
+$(function () {
+    $('.page-scroll a').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    loadContent();
 });
+
+function loadContent() {
+    $('.github-content').each(function () {
+        let contentFile = $(this).data("content-file");
+        $(this).load("https://raw.githubusercontent.com/cowley05/Paintball/master/src/content/" + contentFile + ".html?cb=" + new Date().getTime())
+    })
+}
