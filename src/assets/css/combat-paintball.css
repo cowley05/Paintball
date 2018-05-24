@@ -281,3 +281,20 @@ a:hover {
 #splat-master-terms.small-print {
     max-width: 300px;
 }
+
+/* Offers
+------------------------------------*/
+.col-md-12 {
+    text-align: center;
+}
+
+#offer-details h2 {
+    color: #428bca;
+}
+
+@media (min-width: 767px) {
+    #offer-details p {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
