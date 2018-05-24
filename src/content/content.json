@@ -26,5 +26,37 @@
       "heading": "Half term treat",
       "text": "Get the kids out of the house with this great half term deal including 100 paintballs for all players under 16 years."
     }
+  ],
+  "prices": [
+    {
+      "id": "splat-master-price",
+      "header": "Kids special",
+      "price": "<span>&pound;</span>150<sup>.00</sup> <p class='price-sub-text'>10 players* 1&frac12; hours of play</p>"
+    },
+    {
+      "id": "pay-as-you-play-price",
+      "header": "Pay as you play",
+      "price": "<span>&pound;</span>4<sup>.99</sup>"
+    },
+    {
+      "id": "standard-price",
+      "header": "Standard",
+      "price": "<span>&pound;</span>10<sup>.00</sup>"
+    },
+    {
+      "id": "birthday-bash-price",
+      "header": "Birthday bash",
+      "price": "<span>&pound;</span>20<sup>.00</sup>"
+    },
+    {
+      "id": "rambo-price",
+      "header": "Rambo",
+      "price": "<span>&pound;</span>30<sup>.00</sup>"
+    },
+    {
+      "id": "master-blaster-price",
+      "header": "Master blaster",
+      "price": "<span>&pound;</span>50<sup>.00</sup>"
+    }
   ]
 }
