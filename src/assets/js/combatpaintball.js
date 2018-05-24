@@ -12,7 +12,7 @@ $(function () {
 
 function loadContent() {
 
-    $.get("https://raw.githubusercontent.com/cowley05/Paintball/master/src/content/content.json", function (data) {
+    $.get("https://raw.githubusercontent.com/cowley05/Paintball/master/src/content/content.json?cb=" + new Date().getTime(), function (data) {
         let json = JSON.parse(data);
         loadSpecialOffersBanner(json.bannerSpecialOffers);
         loadSpecialOfferDetails(json.specialOfferDetails);
