@@ -16,6 +16,7 @@ function loadContent() {
         let json = JSON.parse(data);
         loadSpecialOffersBanner(json.bannerSpecialOffers);
         loadSpecialOfferDetails(json.specialOfferDetails);
+        loadPrices(json.prices);
     });
 
     function loadSpecialOffersBanner(offers) {
@@ -54,5 +55,25 @@ function loadContent() {
             }
         });
 
+    }
+
+    function loadPrices(priceData) {
+        function setHeader(priceTable, header) {
+            let type = priceTable.getElementsByClassName('type')[0];
+            let tag = type.getElementsByTagName('p')[0];
+            tag.innerText = header;
+        }
+
+        function setPriceText(priceTable, html) {
+            let plan = priceTable.getElementsByClassName('plan')[0];
+            let header = plan.getElementsByClassName('header')[0];
+            header.innerHTML = html;
+        }
+
+        priceData.forEach(function (priceData) {
+            let priceTable = document.getElementById(priceData.id);
+            setHeader(priceTable, priceData.header);
+            setPriceText(priceTable, priceData.price);
+        });
     }
 }
