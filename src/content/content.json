@@ -2,23 +2,23 @@
   "bannerSpecialOffers": [
     {
       "id": "banner-offer-1",
-      "location": "First offer on the top banner",
-      "heading": "Spring special offer again",
-      "text": "Some offer details"
+      "heading": "Airsoft coming soon...",
+      "text": "Call now for details on airsoft"
     },
     {
       "id": "banner-offer-2",
-      "location": "Second offer on the top banner",
-      "heading": "Half term treat",
-      "text": "Why not get the kids out of the house this half term with our half term deal of £5.00 per child"
+      "heading": "Special offer",
+      "text": "Half day paintballing for just £28.00 including 500 paintballs"
     }
   ],
   "specialOfferDetails": [
     {
-      "id": "offer-details-1",
-      "location": "Special offer section, first column",
-      "heading": "Spring special offer",
-      "text": "This spring play from just £3.00pp when booking before the end of May. Entrance fee only."
+      "heading": "Airsoft coming soon",
+      "text": "Call now for details and to secure a place for our upcoming airsoft games."
+    },
+    {
+      "heading": "Special offer",
+      "text": "Half day paintballing for just £28.00 including 500 paintballs. Free lunch will be provided with all morning bookings."
     }
   ],
   "prices": [
