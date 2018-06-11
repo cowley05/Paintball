@@ -24,7 +24,6 @@ function loadContent() {
             let item = document.getElementById(offer.id);
             item.getElementsByTagName("h1")[0].innerHTML = offer.heading;
             item.getElementsByTagName("p")[0].innerHTML = offer.text;
-            console.log(offer.text);
         });
     }
 
