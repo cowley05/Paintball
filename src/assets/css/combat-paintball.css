@@ -112,11 +112,16 @@
     background-size: cover;
 }
 
-.carousel-caption a:hover.stand_out,
-.carousel-caption a:link.stand_out,
-.carousel-caption a:active.stand_out,
-.carousel-caption a:visited.stand_out {
+a:hover.stand_out,
+a:link.stand_out,
+a:active.stand_out,
+a:visited.stand_out {
     color: #428bca;
+    text-decoration: none;
+}
+
+.prices-header .stand_out {
+    font-weight: bold;
 }
 
 a:hover {
@@ -297,4 +302,8 @@ a:hover {
         padding-left: 200px;
         padding-right: 200px;
     }
+}
+
+.featurette-heading.kids-heading {
+    margin-top: 29px;
 }
