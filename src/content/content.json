@@ -25,27 +25,27 @@
     },
     {
       "id": "pay-as-you-play-price",
-      "header": "Unavailable during covid",
+      "header": "Unavailable",
       "price": "<s><span>&pound;</span>4<sup>.99</sup></s>"
     },
     {
       "id": "standard-price",
-      "header": "Unavailable during covid",
+      "header": "Unavailable",
       "price": "<s><span>&pound;</span>10<sup>.00</sup></s>"
     },
     {
       "id": "birthday-bash-price",
-      "header": "Unavailable during covid",
+      "header": "Unavailable",
       "price": "<s><span>&pound;</span>20<sup>.00</sup></s>"
     },
     {
       "id": "rambo-price",
-      "header": "Unavailable during covid",
+      "header": "Unavailable",
       "price": "<s><span>&pound;</span>30<sup>.00</sup></s>"
     },
     {
       "id": "master-blaster-price",
-      "header": "Unavailable during covid",
+      "header": "Unavailable",
       "price": "<s><span>&pound;</span>50<sup>.00</sup></s>"
     }
   ]
