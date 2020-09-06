@@ -20,32 +20,32 @@
   "prices": [
     {
       "id": "splat-master-price",
-      "header": "<s>Kids special</s>",
-      "price": "<s><span>&pound;</span>180<sup>.00</sup> <p class='price-sub-text'>12 players* 1&frac12; hours of play</p></s>"
+      "header": "Kids special",
+      "price": "<span>&pound;</span>180<sup>.00</sup> <p class='price-sub-text'>12 players* 1&frac12; hours of play</p><p>Unfortunately food is unavailable during covid, you are more than welcome to bring your own food for a half hour party slot after the game</p>"
     },
     {
       "id": "pay-as-you-play-price",
-      "header": "<s>Pay as you play</s>",
+      "header": "Unavailable during covid",
       "price": "<s><span>&pound;</span>4<sup>.99</sup></s>"
     },
     {
       "id": "standard-price",
-      "header": "<s>Standard</s>",
+      "header": "Unavailable during covid",
       "price": "<s><span>&pound;</span>10<sup>.00</sup></s>"
     },
     {
       "id": "birthday-bash-price",
-      "header": "<s>Birthday bash</s>",
+      "header": "Unavailable during covid",
       "price": "<s><span>&pound;</span>20<sup>.00</sup></s>"
     },
     {
       "id": "rambo-price",
-      "header": "<s>Rambo</s>",
+      "header": "Unavailable during covid",
       "price": "<s><span>&pound;</span>30<sup>.00</sup></s>"
     },
     {
       "id": "master-blaster-price",
-      "header": "<s>Master blaster</s>",
+      "header": "Unavailable during covid",
       "price": "<s><span>&pound;</span>50<sup>.00</sup></s>"
     }
   ]
