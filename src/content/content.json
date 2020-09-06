@@ -2,55 +2,51 @@
   "bannerSpecialOffers": [
     {
       "id": "banner-offer-1",
-      "heading": "Airsoft coming soon...",
-      "text": "Call now for details on airsoft"
+      "heading": "Special offer",
+      "text": "We're now open and due to cornoavirus restrictions we're offering a special deal of £30pp for a half day"
     },
     {
       "id": "banner-offer-2",
-      "heading": "Special offer",
-      "text": "Half day paintballing for just £28.00 including 500 paintballs"
+      "heading": "Now Open",
+      "text": "During coronavirus we will be open and catering for group booking over half a day for your safety"
     }
   ],
   "specialOfferDetails": [
     {
-      "heading": "Airsoft coming soon",
-      "text": "Call now for details and to secure a place for our upcoming airsoft games."
-    },
-    {
       "heading": "Special offer",
-      "text": "Half day paintballing for just £28.00 including 500 paintballs. Free lunch will be provided with all morning bookings."
+      "text": "We're now open and due to cornoavirus restrictions we're offering a special deal for just £30pp for a half day. Including 400 paintballs, Mask, Hood, Gun, Ammo belt and Clean coverall"
     }
   ],
   "prices": [
     {
       "id": "splat-master-price",
-      "header": "Kids special",
-      "price": "<span>&pound;</span>180<sup>.00</sup> <p class='price-sub-text'>12 players* 1&frac12; hours of play</p>"
+      "header": "<s>Kids special</s>",
+      "price": "<s><span>&pound;</span>180<sup>.00</sup> <p class='price-sub-text'>12 players* 1&frac12; hours of play</p></s>"
     },
     {
       "id": "pay-as-you-play-price",
-      "header": "Pay as you play",
-      "price": "<span>&pound;</span>4<sup>.99</sup>"
+      "header": "<s>Pay as you play</s>",
+      "price": "<s><span>&pound;</span>4<sup>.99</sup></s>"
     },
     {
       "id": "standard-price",
-      "header": "Standard",
-      "price": "<span>&pound;</span>10<sup>.00</sup>"
+      "header": "<s>Standard</s>",
+      "price": "<s><span>&pound;</span>10<sup>.00</sup></s>"
     },
     {
       "id": "birthday-bash-price",
-      "header": "Birthday bash",
-      "price": "<span>&pound;</span>20<sup>.00</sup>"
+      "header": "<s>Birthday bash</s>",
+      "price": "<s><span>&pound;</span>20<sup>.00</sup></s>"
     },
     {
       "id": "rambo-price",
-      "header": "Rambo",
-      "price": "<span>&pound;</span>30<sup>.00</sup>"
+      "header": "<s>Rambo</s>",
+      "price": "<s><span>&pound;</span>30<sup>.00</sup></s>"
     },
     {
       "id": "master-blaster-price",
-      "header": "Master blaster",
-      "price": "<span>&pound;</span>50<sup>.00</sup>"
+      "header": "<s>Master blaster</s>",
+      "price": "<s><span>&pound;</span>50<sup>.00</sup></s>"
     }
   ]
 }
