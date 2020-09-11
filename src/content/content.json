@@ -21,7 +21,7 @@
     {
       "id": "splat-master-price",
       "header": "Kids special",
-      "price": "<s><span>&pound;</span>180<sup>.00</sup> <p class='price-sub-text'>12 players* 1&frac12; hours of play</p></s>"
+      "price": "<span>&pound;</span>180<sup>.00</sup> <p class='price-sub-text'>12 players* 1&frac12; hours of play</p>"
     },
     {
       "id": "pay-as-you-play-price",
