@@ -2,13 +2,13 @@
   "bannerSpecialOffers": [
     {
       "id": "banner-offer-1",
-      "heading": "Covid £30 deal",
-      "text": "We're now open and due to cornoavirus restrictions we're offering a special deal of £30pp for a half day"
+      "heading": "Kids Special",
+      "text": "Low impact paintball great for kids. 2 hours slot with an inclusive half hour party slot after the games"
     },
     {
       "id": "banner-offer-2",
-      "heading": "Kids Special",
-      "text": "Low impact paintball great for kids. 2 hours slot with an inclusive half hour party slot after the games"
+      "heading": "Covid £30 deal",
+      "text": "We're now open and due to cornoavirus restrictions we're offering a special deal of £30pp for a half day"
     }
   ],
   "specialOfferDetails": [
