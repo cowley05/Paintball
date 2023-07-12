@@ -13,15 +13,15 @@
   ],
   "specialOfferDetails": [
     {
-      "heading": "Covid £30 deal",
-      "text": "We're now open and due to cornoavirus restrictions we're offering a special deal for just £30pp for a half day. Including 400 paintballs, Mask, Hood, Gun, Ammo belt and Clean coverall. All funds must be paid one week in advance to reserve a game."
+      "heading": "£30 Special Offer",
+      "text": "Half a day paintballing for just £30pp. Including 400 paintballs, Mask, Hood, Gun, Ammo belt and Clean coverall. All funds must be paid one week in advance to reserve a game."
     }
   ],
   "prices": [
     {
       "id": "splat-master-price",
       "header": "Kids special",
-      "price": "<span>&pound;</span>225<sup>.00</sup> <p class='price-sub-text'>12 players* 2 hour slot</p>"
+      "price": "<span>&pound;</span>250<sup>.00</sup> <p class='price-sub-text'>12 players* 2 hour slot</p>"
     },
     {
       "id": "pay-as-you-play-price",
